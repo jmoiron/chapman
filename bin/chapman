@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""Chapman backup script."""
+
+import sys
+from chapman.script import main
+
+try:
+    sys.exit(main())
+except KeyboardInterrupt:
+    sys.exit(-1)
